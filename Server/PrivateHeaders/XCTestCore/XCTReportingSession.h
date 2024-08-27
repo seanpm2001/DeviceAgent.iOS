@@ -14,12 +14,12 @@
 
 #import <objc/NSObject.h>
 
-@protocol XCTMessagingRole_TestReporting, XCTMessagingRole_ActivityReporting, _XCTMessaging_VoidProtocol, XCTReportingSessionConfiguration;
+@protocol XCTMessagingRole_TestReporting><XCTMessagingRole_ActivityReporting><_XCTMessaging_VoidProtocol, XCTReportingSessionConfiguration;
 
 @interface XCTReportingSession : NSObject
 {
     id <XCTReportingSessionConfiguration> _configuration;
-    id <XCTMessagingRole_TestReporting, XCTMessagingRole_ActivityReporting, _XCTMessaging_VoidProtocol> _IDEProxy;
+    id <XCTMessagingRole_TestReporting><XCTMessagingRole_ActivityReporting><_XCTMessaging_VoidProtocol> _IDEProxy;
 }
 
 @property(readonly) id <XCTReportingSessionConfiguration> configuration;
@@ -30,6 +30,7 @@
 - (id)initWithIDEProxy:(id)arg1 testConfiguration:(id)arg2;
 - (void)reportStarted;
 - (id)reportSuiteStartedWithName:(id)arg1 atDate:(id)arg2;
+- (id)reportTestStartedWithName:(id)arg1 atDate:(id)arg2 iteration:(NSInteger)arg3;
 
 @end
 

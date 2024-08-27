@@ -32,6 +32,9 @@ __attribute__((visibility("hidden")))
 - (void)openDefaultApplicationForURL:(id)arg1 completion:(CDUnknownBlockType)arg2;
 - (void)openURL:(id)arg1 usingApplication:(id)arg2 completion:(CDUnknownBlockType)arg3;
 
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
 
 @end
 

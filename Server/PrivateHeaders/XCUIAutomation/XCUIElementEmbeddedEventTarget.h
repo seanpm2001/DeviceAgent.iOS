@@ -38,6 +38,9 @@
 - (BOOL)tapWithNumberOfTaps:(NSUInteger)arg1 numberOfTouches:(NSUInteger)arg2 error:(id *)arg3;
 - (BOOL)twoFingerTapWithError:(id *)arg1;
 
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
 
 @end
 

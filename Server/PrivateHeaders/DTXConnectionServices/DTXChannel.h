@@ -56,6 +56,9 @@
 - (void)setMessageHandler:(CDUnknownBlockType)arg1;
 - (void)suspend;
 
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
 
 @end
 

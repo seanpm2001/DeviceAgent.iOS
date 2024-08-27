@@ -12,16 +12,15 @@
 @protocol OS_dispatch_queue;
 @protocol OS_xpc_object;
 
-#import "XCUIElement.h"
 #import "XCUIIssueDiagnosticsProviding-Protocol.h"
 
-@class NSArray, NSDictionary, NSString, XCAccessibilityElement, XCApplicationQuery, XCTVariationOptions, XCUIApplicationImpl, XCUIApplicationOpenRequest;
+@class NSArray, NSDictionary, NSString, XCAccessibilityElement, XCApplicationQuery, XCTVariationOptions, XCUIApplicationImpl, XCUIApplicationOpenRequest, XCUIElement;
 @protocol XCTRunnerAutomationSession, XCUIDevice;
 
 
 @protocol XCTRunnerAutomationSession;
 
-@interface XCUIApplication : XCUIElement <XCUIIssueDiagnosticsProviding>
+@interface XCUIApplication <XCUIIssueDiagnosticsProviding>
 {
     BOOL _ancillary;
     BOOL _prefersPlatformLauncher;
@@ -104,6 +103,7 @@
 - (void)launch;
 - (void)launchWithoutAccessibility:(BOOL)arg1;
 - (void)openURL:(id)arg1;
+- (BOOL)performAccessibilityAuditWithAuditTypes:(NSUInteger)arg1 issueHandler:(CDUnknownBlockType)arg2 error:(id *)arg3;
 - (id)query;
 - (void)resetAlertCount;
 - (void)resetAuthorizationStatusForResource:(NSInteger)arg1;
@@ -112,6 +112,9 @@
 - (void)terminate;
 - (id)viewDidAppearExpectationForViewControllerWithName:(id)arg1;
 - (BOOL)waitForState:(NSUInteger)arg1 timeout:(double)arg2;
+
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
 
 
 @end
