@@ -22,7 +22,9 @@
 
 @interface XCTestExpectation : NSObject
 {
-    struct atomic_flag _hasCleanedUp;
+    struct atomic_flag {
+        _Atomic bool _Value;
+    } _hasCleanedUp;
     NSLock *_cleanupHandlersLock;
     NSMutableArray *_cleanupHandlers;
     BOOL _fulfilled;

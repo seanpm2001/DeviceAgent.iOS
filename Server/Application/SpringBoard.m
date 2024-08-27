@@ -49,8 +49,7 @@ typedef enum : NSUInteger {
     static SpringBoard *_springBoard;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _springBoard = [[SpringBoard alloc]
-                        initWithBundleIdentifier:@"com.apple.springboard"];
+        _springBoard = [SpringBoard initWithBundleIdentifier:@"com.apple.springboard"];
 
         [XCUIApplication cbxResolveApplication:_springBoard];
     });
@@ -64,7 +63,7 @@ typedef enum : NSUInteger {
         // Collect timing info
         NSTimeInterval startTime = [[CBXMachClock sharedClock] absoluteTime];
         
-        XCUIElementQuery *query = [self descendantsMatchingType:XCUIElementTypeAlert];
+        XCUIElementQuery *query = [(XCUIElement *)self descendantsMatchingType:XCUIElementTypeAlert];
         NSArray <XCUIElement *> *elements = [query allElementsBoundByIndex];
 
         if ([elements count] != 0) {

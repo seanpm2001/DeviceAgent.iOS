@@ -37,7 +37,9 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Test Case that will never fail or stop from running in case of failure
  */
-@interface FBFailureProofTestCase : XCTestCase;
+@interface FBFailureProofTestCase : XCTestCase{
+    XCTest *_XCTestImplementation;
+};
 @end
 
 NS_ASSUME_NONNULL_END

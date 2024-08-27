@@ -8,10 +8,7 @@
 @class NSObject;
 
 #import <Foundation/Foundation.h>
-
-#pragma mark Blocks
-
-typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
+#import "CDStructures.h"
 
 #pragma mark Typedef'd Structures
 
@@ -21,4 +18,3 @@ typedef struct {
     CDUnknownBlockType messageHandler;
     CDUnknownBlockType dispatchValidator;
 } CDStruct_f5f3468d;
-

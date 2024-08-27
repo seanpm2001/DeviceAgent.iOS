@@ -121,7 +121,7 @@ static Application *currentApplication;
 
 + (XCUIApplicationState)terminateApplicationWithIdentifier:(NSString *)bundleIdentifier {
     XCUIApplication *application;
-    application = [[XCUIApplication alloc] initWithBundleIdentifier:bundleIdentifier];
+    application = [XCUIApplication initWithBundleIdentifier:bundleIdentifier];
     return [Application terminateApplication:application];
 }
 
@@ -176,8 +176,7 @@ static Application *currentApplication;
                     launchEnv:(NSDictionary *_Nullable)environment
            terminateIfRunning:(BOOL)terminateIfRunning {
 
-    XCUIApplication *application = [[XCUIApplication alloc]
-                                    initWithBundleIdentifier:bundleId];
+    XCUIApplication *application = [XCUIApplication initWithBundleIdentifier:bundleId];
 
     if (terminateIfRunning) {
         [Application terminateApplication:application];
@@ -223,7 +222,7 @@ static Application *currentApplication;
 
     // Getting pickers from Application's view.
     XCUIApplication *application = [Application currentApplication];
-    XCUIElementQuery *pickersQuery = [application descendantsMatchingType:XCUIElementTypePicker];
+    XCUIElementQuery *pickersQuery = [(XCUIElement *)application descendantsMatchingType:XCUIElementTypePicker];
     NSArray <XCUIElement *> *pickers = [pickersQuery allElementsBoundByIndex];
 
     // Checking is there any picker on the screen.

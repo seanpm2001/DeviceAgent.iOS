@@ -19,7 +19,7 @@
 
 @interface XCTBlockingQueue : NSObject
 {
-    struct os_unfair_lock_s _lock;
+    struct os_unfair_lock_s *_lock;
     BOOL _finalized;
     NSObject<OS_dispatch_semaphore> *_sema;
     NSMutableArray *_objects;

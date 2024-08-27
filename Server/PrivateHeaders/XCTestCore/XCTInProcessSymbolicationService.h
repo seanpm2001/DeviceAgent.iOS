@@ -20,9 +20,9 @@
 
 @interface XCTInProcessSymbolicationService : NSObject <XCTSymbolInfoProviding>
 {
-    struct atomic_flag _symbolicatorInitialized;
+    struct atomic_flag *_symbolicatorInitialized;
     NSSet *_imageNames;
-    struct _CSTypeRef _symbolicator;
+    struct _CSTypeRef *_symbolicator;
     CDStruct_37ea9563 _symbolicationFunctions;
 }
 

@@ -21,7 +21,7 @@
 
 @interface XCTDefaultDebugLogHandler : NSObject <XCTASDebugLogDelegate, XCDebugLogDelegate>
 {
-    struct os_unfair_lock_s _lock;
+    struct os_unfair_lock_s *_lock;
     NSMutableArray *_logSinks;
     NSMutableArray *_debugMessageBuffer;
 }

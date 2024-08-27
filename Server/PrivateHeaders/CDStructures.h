@@ -10,12 +10,13 @@
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
+typedef void (^CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
 
 #pragma mark Typedef'd Structures
 
 typedef struct {
     NSUInteger _field1;
-    id *_field2;
+    id _field2;
     NSUInteger *_field3;
     NSUInteger _field4[5];
 } CDStruct_70511ce9;

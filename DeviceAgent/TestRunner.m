@@ -12,9 +12,9 @@
 @implementation TestRunner
 
 - (void)setUp {
-    [super setUp];
+    [_XCTestImplementation setUp];
     self.continueAfterFailure = YES;
-    
+
     /*
      *  Route exceptions should be caught inside of the server.
      *  Any exception that makes it this far should therefore kill the test. 
@@ -23,7 +23,7 @@
 }
 
 - (void)tearDown {
-    [super tearDown];
+    [_XCTestImplementation tearDown];
 }
 
 - (void)testRunner {

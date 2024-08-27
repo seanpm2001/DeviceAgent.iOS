@@ -19,7 +19,7 @@
 
 @interface XCTIssue : NSObject <NSCopying, NSMutableCopying, NSSecureCoding>
 {
-    struct atomic_flag _failureBreakPointCalled;
+    struct atomic_flag *_failureBreakPointCalled;
     BOOL _isExpectedFailure;
     BOOL _didInterruptTest;
     BOOL _shouldInterruptTest;

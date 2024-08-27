@@ -28,7 +28,7 @@
 @implementation FBFailureProofTestCase
 
 - (void)setUp {
-  [super setUp];
+  [_XCTestImplementation setUp];
   self.continueAfterFailure = YES;
   if ([self respondsToSelector:@selector(internalImplementation)]) {
     // The `internalImplementation` API has been removed since Xcode 11.4

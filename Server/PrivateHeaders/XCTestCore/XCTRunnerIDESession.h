@@ -22,7 +22,7 @@
 #import "_XCTestObservationInternal-Protocol.h"
 
 @class DTXConnection, NSString, XCTCapabilities, XCTFuture, XCTPromise, XCTestRun;
-@protocol XCTMessagingChannel_RunnerToIDE><NSObject, XCTRunnerIDESessionDelegate, XCUIApplicationMonitor;
+@protocol XCTMessagingChannel_RunnerToIDE, NSObject, XCTRunnerIDESessionDelegate, XCUIApplicationMonitor;
 
 
 @protocol XCTRunnerIDESessionDelegate;
@@ -37,7 +37,7 @@
     id <XCTRunnerIDESessionDelegate> _delegate;
     id <XCUIApplicationMonitor> _applicationMonitor;
     DTXConnection *_IDEConnection;
-    id <XCTMessagingChannel_RunnerToIDE><NSObject> _IDEProxy;
+    id <XCTMessagingChannel_RunnerToIDE, NSObject> _IDEProxy;
     XCTPromise *_readyForTestingPromise;
     XCTPromise *_IDEProxyPromise;
     XCTestRun *_currentTestRun;
@@ -46,7 +46,7 @@
 
 @property(retain) XCTCapabilities *IDECapabilities;
 @property(readonly) DTXConnection *IDEConnection;
-@property(readonly) id <XCTMessagingChannel_RunnerToIDE><NSObject> IDEProxy;
+@property(readonly) id <XCTMessagingChannel_RunnerToIDE, NSObject> IDEProxy;
 @property(readonly) XCTFuture *IDEProxyFuture;
 @property(readonly) XCTPromise *IDEProxyPromise;
 @property __weak id <XCUIApplicationMonitor> applicationMonitor;

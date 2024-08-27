@@ -18,7 +18,9 @@
 
 @interface _XCTExceptionPointer : NSObject
 {
-    struct exception_ptr _exceptionPointer;
+    struct exception_ptr {
+        void *__ptr_;
+    } _exceptionPointer;
 }
 
 @property(readonly, copy) NSString *exceptionDescription;
@@ -27,8 +29,6 @@
 
 + (id)currentExceptionPointer;
 + (void)installUncaughtExceptionHandler;
-- (id).cxx_construct;
-- (id)_nameOfTypeInfo:(const struct type_info *)arg1;
 - (id)initWithExceptionPointer:(const struct exception_ptr *)arg1;
 - (void)raise;
 

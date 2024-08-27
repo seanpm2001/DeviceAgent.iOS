@@ -6,16 +6,4 @@
 //
 
 #import <Foundation/Foundation.h>
-
-#pragma mark Blocks
-
-typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
-
-#pragma mark Typedef'd Structures
-
-typedef struct {
-    NSInteger _field1;
-    NSInteger _field2;
-    NSInteger _field3;
-} CDStruct_2ec95fd7;
-
+#import "CDStructures.h"

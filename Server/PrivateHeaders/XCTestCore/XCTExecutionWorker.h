@@ -24,7 +24,9 @@ __attribute__((visibility("hidden")))
     XCTBlockingQueue *_workQueue;
     NSArray *_executionExtensions;
     NSError *_error;
-    struct os_unfair_lock_s _lock;
+    struct os_unfair_lock_s {
+        unsigned int _os_unfair_lock_opaque;
+    } _lock;
     BOOL _result;
 }
 

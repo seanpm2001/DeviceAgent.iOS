@@ -8,6 +8,11 @@
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <XCTest/XCUIElementTypes.h>
+#import <XCTAutomationSupport/XCTImage.h>
+#import <XCTAutomationSupport/XCUIElementSnapshotRequestResult.h>
+#import <XCTAutomationSupport/XCAXAuditResultCollection.h>
+#import <XCTAutomationSupport/XCTAttachmentFutureMetadata.h>
+#import <XCTestCore/XCTSerializedTransportWrapper.h>
 #import "CDStructures.h"
 @protocol OS_dispatch_queue;
 @protocol OS_xpc_object;
