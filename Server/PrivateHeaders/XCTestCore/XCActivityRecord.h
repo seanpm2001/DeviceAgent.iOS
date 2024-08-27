@@ -58,8 +58,6 @@
 - (void)addDiagnosticReportData:(id)arg1;
 - (void)addMemoryGraphData:(id)arg1;
 - (id)attachmentForName:(id)arg1;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 - (void)invalidate;
 - (void)removeAttachmentsWithName:(id)arg1;

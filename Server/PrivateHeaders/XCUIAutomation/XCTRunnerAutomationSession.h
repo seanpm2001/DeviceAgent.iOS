@@ -56,8 +56,6 @@
 - (void)setMallocStackLoggingWithMode:(NSInteger)arg1 reply:(CDUnknownBlockType)arg2;
 - (id)valuesForPrivilegedAttributes:(id)arg1 forElement:(id)arg2 error:(id *)arg3;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

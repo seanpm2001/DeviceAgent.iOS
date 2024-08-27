@@ -46,8 +46,6 @@
 // Original attribute string: T@"NSSet",?,R
 
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

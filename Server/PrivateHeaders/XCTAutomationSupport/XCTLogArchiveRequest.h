@@ -36,8 +36,6 @@
 - (id)initWithStartDate:(id)arg1 outputPath:(id)arg2;
 - (id)initWithStartDate:(id)arg1 outputPath:(id)arg2 connection:(id)arg3;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

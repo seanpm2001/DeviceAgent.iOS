@@ -39,8 +39,6 @@
 - (id)initWithRootElement:(id)arg1 matchingElements:(id)arg2 remoteElements:(id)arg3 runtimeIssues:(id)arg4 noMatchesMessage:(id)arg5;
 - (id)resultsByReplacingRuntimeIssues:(id)arg1;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

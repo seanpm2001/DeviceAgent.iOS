@@ -113,8 +113,6 @@
 - (id)viewDidAppearExpectationForViewControllerWithName:(id)arg1;
 - (BOOL)waitForState:(NSUInteger)arg1 timeout:(double)arg2;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

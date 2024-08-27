@@ -97,8 +97,6 @@
 - (id)viewDidAppearExpectationForElement:(id)arg1 viewControllerName:(id)arg2;
 - (void)waitForQuiescenceOnAllForegroundApplications;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

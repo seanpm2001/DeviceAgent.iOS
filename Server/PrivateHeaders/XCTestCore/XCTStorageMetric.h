@@ -46,8 +46,6 @@
 - (id)reportMeasurementsFromStartTime:(id)arg1 toEndTime:(id)arg2 error:(id *)arg3;
 - (void)willBeginMeasuringAtEstimatedTimestamp:(id)arg1;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

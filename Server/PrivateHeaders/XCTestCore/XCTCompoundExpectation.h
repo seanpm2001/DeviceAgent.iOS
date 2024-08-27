@@ -31,8 +31,6 @@
 - (void)didFulfillExpectation:(id)arg1;
 - (id)initWithLogicalType:(NSUInteger)arg1 subexpectations:(id)arg2;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

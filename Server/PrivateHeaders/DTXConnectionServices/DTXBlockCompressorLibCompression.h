@@ -24,8 +24,6 @@
 - (NSUInteger)compressBuffer:(const char *)arg1 ofLength:(NSUInteger)arg2 toBuffer:(char *)arg3 ofLength:(NSUInteger)arg4 usingCompressionType:(NSInteger)arg5 withFinalCompressionType:(NSInteger *)arg6;
 - (BOOL)uncompressBuffer:(const char *)arg1 ofLength:(NSUInteger)arg2 toBuffer:(char *)arg3 withKnownUncompressedLength:(NSUInteger)arg4 usingCompressionType:(NSInteger)arg5;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

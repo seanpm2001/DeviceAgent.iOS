@@ -58,8 +58,6 @@
 - (NSInteger)waitForExpectations:(id)arg1 timeout:(double)arg2;
 - (NSInteger)waitForExpectations:(id)arg1 timeout:(double)arg2 enforceOrder:(BOOL)arg3;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

@@ -85,8 +85,6 @@
 - (BOOL)waitForState:(NSUInteger)arg1 timeout:(double)arg2;
 - (BOOL)waitForViewControllerViewDidDisappearWithTimeout:(double)arg1 error:(id *)arg2;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

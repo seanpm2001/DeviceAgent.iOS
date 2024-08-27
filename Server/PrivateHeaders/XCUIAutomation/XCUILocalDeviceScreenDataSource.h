@@ -42,8 +42,6 @@
 - (void)startScreenRecordingWithRequest:(id)arg1 withReply:(CDUnknownBlockType)arg2;
 - (void)stopScreenRecordingWithUUID:(id)arg1 withReply:(CDUnknownBlockType)arg2;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

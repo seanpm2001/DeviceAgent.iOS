@@ -46,8 +46,6 @@ __attribute__((visibility("hidden")))
 - (id)initWithInput:(id)arg1 filteringTransformer:(id)arg2;
 - (id)nextMatch;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

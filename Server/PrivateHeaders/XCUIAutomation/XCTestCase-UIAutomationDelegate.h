@@ -31,8 +31,6 @@
 - (void)startingTestWithActivity:(id)arg1;
 - (void)tearDownSequence;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 @end
 

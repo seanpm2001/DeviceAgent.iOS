@@ -82,8 +82,6 @@
 - (void)updatedInterfaceOrientation:(NSInteger)arg1;
 - (void)waitForUnrequestedTerminationOfLaunchedApplicationsWithTimeout:(double)arg1;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

@@ -72,8 +72,6 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<XCUIAXNotificationHandling>",?,W
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<XCUIApplicationPlatformServicesProviderDelegate>",?,W

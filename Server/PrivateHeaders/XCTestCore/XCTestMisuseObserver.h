@@ -42,8 +42,6 @@
 - (BOOL)testSuiteStackContainsTestSuite:(id)arg1;
 - (void)testSuiteWillStart:(id)arg1;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

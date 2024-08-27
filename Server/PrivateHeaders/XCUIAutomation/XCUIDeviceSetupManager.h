@@ -24,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 - (void)testCaseWillStart:(id)arg1;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

@@ -32,8 +32,6 @@
 + (BOOL)shouldRuntimeIssueContext:(id)arg1 reportIssue:(id)arg2;
 - (id)initWithRootElementSnapshot:(id)arg1 runtimeIssues:(id)arg2;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

@@ -28,8 +28,6 @@
 - (void)stopTrackingProcessWithToken:(id)arg1;
 - (void)terminateProcessWithToken:(id)arg1 completion:(CDUnknownBlockType)arg2;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 @end
 

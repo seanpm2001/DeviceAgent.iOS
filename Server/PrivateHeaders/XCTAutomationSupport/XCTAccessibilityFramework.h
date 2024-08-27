@@ -43,8 +43,6 @@
 - (void)performWithAXTimeout:(double)arg1 block:(CDUnknownBlockType)arg2;
 - (id)userTestingSnapshotForElement:(struct __AXUIElement *)arg1 options:(id)arg2 error:(id *)arg3;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

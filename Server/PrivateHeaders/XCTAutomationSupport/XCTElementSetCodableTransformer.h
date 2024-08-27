@@ -35,8 +35,6 @@
 - (id)requiredKeyPathsOrError:(id *)arg1;
 - (id)transform:(id)arg1 relatedElements:(id *)arg2;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

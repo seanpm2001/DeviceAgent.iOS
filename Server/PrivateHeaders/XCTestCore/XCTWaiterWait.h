@@ -34,8 +34,6 @@
 - (void)didFulfillExpectation:(id)arg1;
 - (id)initWithExpectations:(id)arg1 timeout:(double)arg2 enforceOrder:(BOOL)arg3 isSynchronous:(BOOL)arg4;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

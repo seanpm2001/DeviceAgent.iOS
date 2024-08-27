@@ -36,8 +36,6 @@ __attribute__((visibility("hidden")))
 - (BOOL)runWithError:(id *)arg1;
 - (void)shutdown;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

@@ -39,8 +39,6 @@
 - (id)initForAccessibilityElement:(id)arg1 legacyElementType:(NSUInteger)arg2 elementTypeFromAutomationType:(NSUInteger)arg3 accessibilityAttributes:(id)arg4;
 - (BOOL)isEqualForAggregationWith:(id)arg1;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

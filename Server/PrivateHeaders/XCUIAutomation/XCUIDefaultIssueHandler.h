@@ -28,8 +28,6 @@ __attribute__((visibility("hidden")))
 - (void)handleIssue:(id)arg1;
 - (void)handleIssue:(id)arg1 completionHandler:(CDUnknownBlockType)arg2;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

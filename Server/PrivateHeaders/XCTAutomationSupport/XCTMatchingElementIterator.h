@@ -39,8 +39,6 @@
 - (id)initWithInput:(id)arg1 transformer:(id)arg2;
 - (id)nextMatch;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

@@ -80,8 +80,6 @@
 - (void)unwindRemainingActivities;
 - (id)willStartActivityWithTitle:(id)arg1 type:(id)arg2;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

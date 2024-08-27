@@ -104,8 +104,6 @@
 - (BOOL)useLegacyEventCoordinateTransformationPath;
 - (BOOL)usePointTransformationsForFrameConversions;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 @end
 

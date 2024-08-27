@@ -38,8 +38,6 @@
 - (id)symbolInfoForImageOffset:(NSUInteger)arg1 forImageWithPath:(id)arg2 andArch:(id)arg3 error:(id *)arg4;
 - (id)symbolInfoForImageOffset:(NSUInteger)arg1 inImageWithUUID:(id)arg2 error:(id *)arg3;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSSet",?,R

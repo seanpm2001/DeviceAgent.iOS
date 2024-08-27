@@ -220,8 +220,6 @@
 - (void)waiter:(id)arg1 whileWaitingForWait:(id)arg2 didTimeoutWithUnfulfilledExpectations:(id)arg3;
 - (void)waiter:(id)arg1 whileWaitingForWait:(id)arg2 fulfillmentDidViolateOrderingConstraintsForExpectation:(id)arg3 requiredExpectation:(id)arg4;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

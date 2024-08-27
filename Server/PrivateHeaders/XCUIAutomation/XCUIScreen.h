@@ -54,8 +54,6 @@
 - (id)startDiagnosticScreenRecording;
 - (void)stopDiagnosticRecording;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

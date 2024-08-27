@@ -35,8 +35,6 @@
 - (id)registerForSignpostsFromSubsystem:(id)arg1 category:(id)arg2 intervalTimeout:(double)arg3 error:(id *)arg4 handler:(CDUnknownBlockType)arg5;
 - (void)unregisterForSignpostsWithToken:(id)arg1;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

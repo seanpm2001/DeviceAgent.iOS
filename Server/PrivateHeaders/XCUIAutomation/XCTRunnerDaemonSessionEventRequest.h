@@ -31,8 +31,6 @@ __attribute__((visibility("hidden")))
 - (id)initWithEvent:(id)arg1;
 - (void)invalidate;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end

@@ -112,8 +112,6 @@
 - (void)waitForQuiescenceIncludingAnimationsIdle:(BOOL)arg1;
 - (BOOL)waitForViewControllerViewDidDisappearWithTimeout:(double)arg1 error:(id *)arg2;
 
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
 
 
 @end
