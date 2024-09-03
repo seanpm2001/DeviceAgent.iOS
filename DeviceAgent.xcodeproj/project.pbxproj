@@ -175,7 +175,6 @@
 		47C2644F271F1902006EF0B9 /* _XCTTestIdentifier_Array.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0B0926B8DB90001CF302 /* _XCTTestIdentifier_Array.h */; };
 		47C26450271F1902006EF0B9 /* _XCTTestIdentifier_SingleContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AF226B8DB90001CF302 /* _XCTTestIdentifier_SingleContainer.h */; };
 		47C26451271F1902006EF0B9 /* NSBundle-XCTestAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0B2226B8DB90001CF302 /* NSBundle-XCTestAdditions.h */; };
-		47C26452271F1902006EF0B9 /* NSArray-XCTestAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AB226B8DB90001CF302 /* NSArray-XCTestAdditions.h */; };
 		47C26453271F1902006EF0B9 /* NSThread-XCTestAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0B2626B8DB90001CF302 /* NSThread-XCTestAdditions.h */; };
 		47C26454271F1902006EF0B9 /* _XCTTestIdentifierSet_Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0A6926B8DB90001CF302 /* _XCTTestIdentifierSet_Placeholder.h */; };
 		47C26455271F1902006EF0B9 /* _XCTTestIdentifier_Double.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AB726B8DB90001CF302 /* _XCTTestIdentifier_Double.h */; };
@@ -500,8 +499,6 @@
 		843A0C2326B8DB91001CF302 /* XCTNSPredicateExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AAF26B8DB90001CF302 /* XCTNSPredicateExpectation.h */; };
 		843A0C2426B8DB91001CF302 /* XCTTestIdentifierSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AB026B8DB90001CF302 /* XCTTestIdentifierSet.h */; };
 		843A0C2526B8DB91001CF302 /* XCTTestIdentifierSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AB026B8DB90001CF302 /* XCTTestIdentifierSet.h */; };
-		843A0C2826B8DB91001CF302 /* NSArray-XCTestAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AB226B8DB90001CF302 /* NSArray-XCTestAdditions.h */; };
-		843A0C2926B8DB91001CF302 /* NSArray-XCTestAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AB226B8DB90001CF302 /* NSArray-XCTestAdditions.h */; };
 		843A0C2A26B8DB91001CF302 /* XCTExpectedFailureContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AB326B8DB90001CF302 /* XCTExpectedFailureContext.h */; };
 		843A0C2B26B8DB91001CF302 /* XCTExpectedFailureContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AB326B8DB90001CF302 /* XCTExpectedFailureContext.h */; };
 		843A0C2C26B8DB91001CF302 /* XCTestManager_DaemonConnectionInterface-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 843A0AB426B8DB90001CF302 /* XCTestManager_DaemonConnectionInterface-Protocol.h */; };
@@ -1728,7 +1725,6 @@
 		843A0AAE26B8DB90001CF302 /* XCTMessagingRole_PerformanceMeasurementReporting-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTMessagingRole_PerformanceMeasurementReporting-Protocol.h"; sourceTree = "<group>"; };
 		843A0AAF26B8DB90001CF302 /* XCTNSPredicateExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTNSPredicateExpectation.h; sourceTree = "<group>"; };
 		843A0AB026B8DB90001CF302 /* XCTTestIdentifierSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTTestIdentifierSet.h; sourceTree = "<group>"; };
-		843A0AB226B8DB90001CF302 /* NSArray-XCTestAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-XCTestAdditions.h"; sourceTree = "<group>"; };
 		843A0AB326B8DB90001CF302 /* XCTExpectedFailureContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTExpectedFailureContext.h; sourceTree = "<group>"; };
 		843A0AB426B8DB90001CF302 /* XCTestManager_DaemonConnectionInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_DaemonConnectionInterface-Protocol.h"; sourceTree = "<group>"; };
 		843A0AB526B8DB90001CF302 /* XCTFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTFuture.h; sourceTree = "<group>"; };
@@ -2628,7 +2624,6 @@
 				843A0B4426B8DB90001CF302 /* _XCTTestIdentifierPlaceholder.h */,
 				843A0A6926B8DB90001CF302 /* _XCTTestIdentifierSet_Placeholder.h */,
 				843A0B0526B8DB90001CF302 /* _XCTTestIdentifierSet_Set.h */,
-				843A0AB226B8DB90001CF302 /* NSArray-XCTestAdditions.h */,
 				843A0B2226B8DB90001CF302 /* NSBundle-XCTestAdditions.h */,
 				DD4CF9B32C7DF8A1001A9F14 /* NSDateFormatter-XCTDateFormatting.h */,
 				1B7F979928EB4464003A6E27 /* NSError-XCTTestRunSession.h */,
@@ -3721,7 +3716,6 @@
 				843A0D2526B8DB92001CF302 /* NSSet-XCTestAdditions.h in Headers */,
 				843A0CA126B8DB92001CF302 /* _XCTTestIdentifier_Method_LegacyEncoding.h in Headers */,
 				843A0C3326B8DB91001CF302 /* _XCTTestIdentifier_Double.h in Headers */,
-				843A0C2926B8DB91001CF302 /* NSArray-XCTestAdditions.h in Headers */,
 				843A0D4926B8DB92001CF302 /* XCTestExpectationDelegate-Protocol.h in Headers */,
 				843A0D4B26B8DB92001CF302 /* XCTExpectedFailure.h in Headers */,
 				DD6297CD2A22BF3600E36189 /* NSPredicateVisitor-Protocol.h in Headers */,
@@ -3966,7 +3960,6 @@
 				47C2642A271F1894006EF0B9 /* XCTMessagingRole_CapabilityExchange-Protocol.h in Headers */,
 				47C26434271F18DA006EF0B9 /* DTXDecompressionException.h in Headers */,
 				47C26460271F1902006EF0B9 /* NSKeyedArchiver-XCTestAdditions.h in Headers */,
-				47C26452271F1902006EF0B9 /* NSArray-XCTestAdditions.h in Headers */,
 				47C264B1271F1926006EF0B9 /* XCTMessagingChannel_RunnerToIDE-Protocol.h in Headers */,
 				47C26456271F1902006EF0B9 /* _XCTTestIdentifierPlaceholder.h in Headers */,
 				47C264B9271F1926006EF0B9 /* XCTMessagingRole_ActivityReporting-Protocol.h in Headers */,
@@ -4388,7 +4381,6 @@
 				8479D80326F8D37600F6EFDA /* DTXSocketTransport.h in Headers */,
 				8479D82526F8D37600F6EFDA /* DTXMessage.h in Headers */,
 				843A0D6626B8DB92001CF302 /* XCTIssue.h in Headers */,
-				843A0C2826B8DB91001CF302 /* NSArray-XCTestAdditions.h in Headers */,
 				899696FA1CB5BA4600BB42E2 /* CoordinateQuery.h in Headers */,
 				843A0C3026B8DB91001CF302 /* XCTSourceCodeContext.h in Headers */,
 				8479D81F26F8D37600F6EFDA /* DTXMessageTransmitter.h in Headers */,
