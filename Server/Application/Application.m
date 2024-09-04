@@ -121,7 +121,7 @@ static Application *currentApplication;
 
 + (XCUIApplicationState)terminateApplicationWithIdentifier:(NSString *)bundleIdentifier {
     XCUIApplication *application;
-    application = [XCUIApplication initWithBundleIdentifier:bundleIdentifier];
+    application = [[XCUIApplication alloc] initWithBundleIdentifier:bundleIdentifier];
     return [Application terminateApplication:application];
 }
 
@@ -176,7 +176,7 @@ static Application *currentApplication;
                     launchEnv:(NSDictionary *_Nullable)environment
            terminateIfRunning:(BOOL)terminateIfRunning {
 
-    XCUIApplication *application = [XCUIApplication initWithBundleIdentifier:bundleId];
+    XCUIApplication *application = [[XCUIApplication alloc] initWithBundleIdentifier:bundleId];
 
     if (terminateIfRunning) {
         [Application terminateApplication:application];
