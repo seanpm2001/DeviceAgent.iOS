@@ -12,7 +12,7 @@
 @implementation TestRunner
 
 - (void)setUp {
-    [_XCTestImplementation setUp];
+    [super setUp];
     self.continueAfterFailure = YES;
 
     /*
@@ -23,7 +23,7 @@
 }
 
 - (void)tearDown {
-    [_XCTestImplementation tearDown];
+    [super tearDown];
 }
 
 - (void)testRunner {

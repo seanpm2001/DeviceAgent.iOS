@@ -20,7 +20,7 @@
 
 @protocol XCTRunnerAutomationSession;
 
-@interface XCUIApplication <XCUIIssueDiagnosticsProviding>
+@interface XCUIApplication: NSObject <XCUIIssueDiagnosticsProviding>
 {
     BOOL _ancillary;
     BOOL _prefersPlatformLauncher;

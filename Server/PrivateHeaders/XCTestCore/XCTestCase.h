@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <XCTest/XCUIElementTypes.h>
+#import <XCTestCore/XCTest.h>
 #import "CDStructures.h"
 @protocol OS_dispatch_queue;
 @protocol OS_xpc_object;
@@ -22,7 +23,7 @@
 @class MXMInstrument, NSArray, NSDictionary, NSInvocation, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSThread, XCTAttachmentManager, XCTIssue, XCTMemoryChecker, XCTMetricDiagnosticHelper, XCTSkippedTestContext, XCTTestIdentifier, XCTWaiter, XCTestCaseRun;
 @protocol OS_dispatch_source;
 
-@interface XCTestCase <XCTActivity, XCTWaiterDelegate, XCTestCaseUIAutomationDelegate, XCTestCastMethodNamesUIAutomationDelegate, XCTestCaseDiscoveryUIAutomationDelegate, XCTMemoryCheckerDelegate>
+@interface XCTestCase: XCTest <XCTActivity, XCTWaiterDelegate, XCTestCaseUIAutomationDelegate, XCTestCastMethodNamesUIAutomationDelegate, XCTestCaseDiscoveryUIAutomationDelegate, XCTMemoryCheckerDelegate>
 {
     BOOL _continueAfterFailure;
     BOOL __preciseTimeoutsEnabled;
@@ -66,7 +67,7 @@
     NSDictionary *_testRunConfiguration;
 }
 
-@property(copy, getter=_activityAggregateStatistics, setter=_setActivityAggregateStatistics:) NSDictionary *activityAggregateStatistics;
+@property(copy, getter=_activityAggregateStatistics) NSDictionary *activityAggregateStatistics;
 @property BOOL _didMeasureMetrics;
 @property BOOL _didStartMeasuring;
 @property BOOL _didStopMeasuring;
